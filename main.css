@@ -26,6 +26,10 @@ body{
     color:white;
     text-decoration: none;
 }
+.box a, h5:hover{
+    color: #2ecc71;
+    
+}
 .box input[type="text"],.box input[type ="password"]{
     border:0px;
     background:none;
