@@ -140,6 +140,7 @@ body{
 .box_content h3{
     font-weight: 500;
     font-style: italic;
+    color: #2ecc71;
 }
 .box_content a{
     text-decoration: none;
