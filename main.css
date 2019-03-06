@@ -137,6 +137,14 @@ body{
     transform: translate(-50%, -50%);
     width: 300px;
 }
+.box_content h3{
+    font-weight: 500;
+    font-style: italic;
+}
+.box_content a{
+    text-decoration: none;
+    
+}
 .box_content input[type="text"], .box_content input[type="password"]{
     border:0px;
     background:none;
@@ -165,4 +173,10 @@ body{
     transition: 0.25s;
     cursor: pointer
 }
-
+.box_content input[type="text"]:focus, .box_content input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box_content input[type="submit"]:hover{
+    background-color: #2ecc71;
+}
