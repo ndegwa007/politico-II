@@ -181,3 +181,6 @@ body{
 .box_content input[type="submit"]:hover{
     background-color: #2ecc71;
 }
+.logo{
+    width: 150px;
+}
