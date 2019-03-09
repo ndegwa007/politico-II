@@ -208,5 +208,40 @@ body{
     border-radius: 20px;
     outline:none;
     transition: 0.25s;
+    color:white;
 
+}
+.panel input[type="text"]:focus, .panel input[type="password"]:focus{
+    width: 200px;
+    border-color: #2ecc71;
+}
+
+.panel button{
+    border:0px;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 30px;
+    border-radius: 15px;
+    outline: none;
+    color:white;
+    transition: 0.25s;
+    cursor: pointer
+}
+.panel button:hover{
+    background:#2ecc71;
+}
+.panel h2{
+    font-weight: bold;
+    color: white;
+}
+.panel a, i{
+    color:white; 
+    font-weight: bold;
+    padding:20px;
+}
+.panel a, i:hover{
+    color:#2ecc71;
 }
