@@ -184,3 +184,29 @@ body{
 .logo{
     width: 150px;
 }
+.box_panel{
+    background: black;
+    width:300px;
+    left:50%;
+    top:50%;
+    margin:20px auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.panel input[type="text"], .panel input[type="password"]{
+    border: 0px;
+    background: none;
+    display:block;
+    text-align:center;
+    margin:20px auto;
+    border: 2px solid #3498db;
+    padding: 14px 30px;
+    border-radius: 20px;
+    outline:none;
+    transition: 0.25s;
+
+}
