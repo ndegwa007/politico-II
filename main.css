@@ -19,8 +19,7 @@ body{
 }
 .box h1{
     color: white;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 .box a, h5{
     color:white;
